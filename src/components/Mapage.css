@@ -1,0 +1,42 @@
+.mapage {
+    display: flex;
+    padding: 20px;
+  }
+
+.mapage-container {
+    display: flex;
+  }
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-right: 2px solid #ddd;
+  }
+  
+.sidebar h3 {
+    margin-top: 0;
+  }
+  
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+.sidebar li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+.sidebar li:hover {
+    background-color: #ddd;
+  }
+
+  
+.map-content {
+    flex: 1;
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+  }
