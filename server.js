@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
-app.use(express.json()); // Ensure express can parse JSON bodies
+app.use(express.json()); 
 
 app.use('/login', (req, res) => {
   const { username, password } = req.body;
