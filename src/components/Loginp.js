@@ -22,13 +22,13 @@ export default function Loginp({ setToken }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError(null); // Clear any previous error messages
+    setError(null); 
 
     try {
       const { token } = await loginUser({ username, password });
-      setToken({ token, username }); // Save the token if login succeeds
+      setToken({ token, username }); 
     } catch (err) {
-      setError(err.message); // Display error if login fails
+      setError(err.message); 
     }
   };
 
